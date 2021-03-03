@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FrontEnd Store</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html">
+                <img class="header__logo" src="img/logo.png" alt="logotipo">
+            </a>
+        </header>
+        <nav class="navegacion">
+            <a class="navegacion__enlace " href="index.html">Tienda</a>
+            <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+        </nav>
+        <main class="contenedor">
+            <h1>React JS</h1>
+            <div class="camisa">
+                <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+                <div class="camisa__contenido">
+                    <p> Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño.</p>
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected> --Seleccionar Talla--</option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario_submit" type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__texto">Front End Store - Todos los Derechos Reservados 2021</p>
+        </footer>
+    </body>
+</html>
+
